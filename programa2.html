@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa 2</title>
+    <link rel="stylesheet" href="programa2.css">
+</head>
+<body>
+    <header class="header">
+        <a href="main.html" class="logo">Pedro Sanchez</a>
+        <nav class="navbar">
+            <a href="main.html" class="nav-inicio">Inicio</a>
+            <a href="etapa3.html">Get & Post</a>
+            <a href="programa2.html">Programa 2</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Preferencias de Programación</h1>
+        <form action="procesar2.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label>Selecciona tus lenguajes de programación preferidos:</label>
+            <label for="php">PHP</label><br>
+            <input type="checkbox" id="php" name="lenguajes[]" value="PHP">
+            <label for="javascript">JavaScript</label><br>
+            <input type="checkbox" id="javascript" name="lenguajes[]" value="JavaScript">
+            <label for="python">Python</label><br>
+            <input type="checkbox" id="python" name="lenguajes[]" value="Python">
+            <label for="java">Java</label><br>
+            <input type="checkbox" id="java" name="lenguajes[]" value="Java">
+            <label for="csharp">C#</label><br>
+            <input type="checkbox" id="csharp" name="lenguajes[]" value="C#">
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: #252436;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    backdrop-filter: blur(50px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.logo{
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover{
+    color: #00abf0;
+    font-weight: 600;
+}
+
+.inicio{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin-left: 40vh;
+}
+
+.inicio-home h1{
+    font-size: 80px;
+    font-weight: 600;
+    color: #fafafa;
+    margin-bottom: 10px;
+}
+
+
+.inicio-home h1 a{
+    font-size: 90px;
+    color: #00abf0;
+    animation: colors 10s infinite;
+}
+
+/* Contenido de la Pagina */
+
+h1{
+    font-size: 50px;
+    color: #00abf0;
+    margin: 0 50px;
+}
+
+h3{
+    color: #fafafa;
+    font-size: 28px;
+    margin: 0 50px;
+}
+
+p{
+    color: #fafafa;
+    font-size: 28px;
+    margin: 0 50px;
+}
+
+.contenido{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+.contenido p{
+    color: #fafafa;
+    font-size: 28px;
+    margin: 0 50px;
+}
+
+.esquema{
+    padding-top: 100px;
+    width: 700px;
+}
+
+.ventajas{
+    color: #fafafa;
+    font-size: 28px;
+    margin: 0 50px;
+    margin-bottom: 100px;
+}
+
+.title__ventajas{
+    font-size: 50px;
+}
+
+.usos__php{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.info1{
+    color: #fafafa;
+    font-size: 28px;
+    margin: 0 50px;
+}
+
+.php-img1{
+    max-width: 900px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.tareas{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.php-img2{
+    width: 900px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+@keyframes colors{
+    0%{
+        color:#00abf0;
+    }
+    10%{
+        color: #00f080;
+    }
+    20%{
+        color: #44f000;
+    }
+    30%{
+        color: #74f000;
+    }
+    40%{
+        color: #ccf000;
+    }
+    50%{
+        color: #f0c400;
+    }
+    60%{
+        color: #f06c00;
+    }
+    70%{
+        color: #f00000;
+    }
+    80%{
+        color: #f000bc;
+    }
+    90%{
+        color: #4800f0;
+    }
+    95%{
+        color: #0070f0;
+    }
+    100%{
+        color: #00abf0;
+    }
+}

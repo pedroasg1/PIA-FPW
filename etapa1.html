@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etapa 1</title>
+    <link rel="stylesheet" href="etapa1.css">
+</head>
+<body>
+    <header class="header">
+        <a href="main.html" class="logo">Pedro Sanchez</a>
+        <nav class="navbar">
+            <a href="main.html" class="nav-inicio">Inicio</a>
+            <a href="etapa1.html">Conceptos</a>
+            <a href="instalacionPHP.html">Instalación</a>
+            <a href="video.html">Video</a>
+        </nav>
+    </header>
+
+    <section class="inicio">
+        <div class="inicio-home">
+            <h1>Conceptos basicos de <a>PHP</a></h1>
+            <p></p>
+        </div>
+    </section>
+
+    <!-- Contenido de la pagina -->
+    <section class="content">
+        <div class="contenido">
+            <p>PHP es el lenguaje de lado del servidor más extendido en la web. Nacido en 1994, se trata de un lenguaje de creación relativamente reciente, aunque con la rapidez con la que evoluciona Internet parezca que ha existido toda la vida. Es un lenguaje que ha tenido una gran aceptación en la comunidad de desarrolladores, debido a la potencia y simplicidad que lo caracterizan, así como al soporte generalizado en la mayoría de los servidores de hosting.<br><br>
+            PHP nos permite introducir sus pequeños fragmentos de código dentro de la pagina HTML y realizar determinadas acciones de una forma fácil y eficaz, combinando lo que y sabemos del desarrollo HTML. Es decir, con PHP escribimos scripts dentro del código HTML, con el que se supone que ya estamos familiarizados. Por otra parte, PHP ofrece un sinfín de funciones para la explotación de bases de datos de manera llana, sin complicaciones. <br><br>
+            Al ser PHP un lenguaje que se ejecuta en el servidor no es necesario que su navegador lo soporte, es independiente del navegador, pero sin embargo para que sus pagina PHP funcionen, el servidor donde están alojadas debe soportar PHP.<br><br>
+            Para incluir código PHP basta con precederlo de la etiqueta >?php y cerrarlo con ?>. Si el servidor web esta correctamente configurado, detectara código PHP y, en vez de proporcionar el contenido de la pagina directamente al cliente, ejecuta el programa y devuelve su resultado al navegador.
+        </p>
+        <figure class="img-esquema">
+            <img src="./assets/etapa1-img.jpg" alt="esquema de una peticion de PHP" class="esquema">
+        </figure>
+    </div>
+    <br><br><br><br>
+    <div class="ventajas">
+        <h1 class="title__ventajas">Ventajas y desventajas de PHP</h1><br><br>
+        <h3>Ventajas de PHP:</h3><br>
+        <ul>
+            <li><b>Facilidad de Aprendizaje:</b> PHP es relativamente facil de aprender para los principiantes, especialmente si ya tienen conocimiento de HTML.</li><br>
+            <li><b>Amplia Documentación:</b> Existe una amplia documentación y recursos en línea disponibles para PHP, lo que facilita la resolución de problemas y la mejora de las habilidades de programación.</li><br>
+            <li><b>Integración con Bases de Datos:</b> PHP ofrece una excelente integración con una variedad de sistemas de gestión de bases de datos, como MySQL, PostgreSQL, y otros, facilitando la manipulación de datos en aplicaciones web. </li><br>
+            <li><b>Gran comunidad:</b> Cuenta con una comunidad grande y activa de desarrolladores. Esto significa que hay una gran cantidad de recursos, bibliotecas y frameworks disponibles. </li><br>
+            <li><b>Flexibilidad:</b> PHP es un lenguaje flexible que puede ejecutarse en diferentes sistemas operativos y se puede integrar fácilmente con otros lenguajes de programación. </li><br>
+            <li><b>Velocidad de desarrollo:</b> La facilidad y rapidez con la que se puede escribir código en PHP puede acelerar el desarrollo de proyectos web. </li><br>
+            <li><b>Soporte de Plataformas populares:</b> Es compatible con una amplia gama de servidores web como Apache y Nginx, lo que facilita su implementación en diferentes entornos. </li>
+        </ul><br><br>
+
+        <h3>Desventajas de PHP:</h3><br><br>
+        <ul class="desventajas">
+            <li><b>Manejo de errores:</b> A veces, el manejo de errores en PHP puede ser menos detallado y más difícil de depurar en comparación con otros lenguajes.</li><br>
+            <li><b>Problemas de cohesión:</b> Algunos críticos argumentan que PHP, en comparación con otros lenguajes, carece de una estructura de cohesión clara y promueve malos hábitos de programación.</li><br>
+            <li><b>Escalabilidad limitada:</b> Aunque se han realizado mejoras significativas en versiones recientes, algunos desarrolladores sostienen que PHP puede no ser tan eficiente en situaciones de gran escala como algunos otros lenguajes.</li><br>
+            <li><b>Seguridad:</b> PHP ha enfrentado críticas en el pasado por problemas de seguridad, aunque muchos de estos problemas se han abordado en versiones más recientes.</li><br>
+            <li><b>Rendimiento:</b> En comparación con algunos lenguajes compilados, PHP puede tener un rendimiento ligeramente inferior. Sin embargo, hay optimizaciones y técnicas que se pueden aplicar para mejorar el rendimiento.</li><br>
+            <li><b>Actualizaciones irregulares:</b> En algunos momentos, las actualizaciones de PHP pueden no ser tan regulares como en otros leguajes, lo que puede afectar la adopción de nuevas características y mejoras.</li><br>
+            <li><b>Herencia Histórica:</b> PHP ha evolucionado a lo largo del tiempo, y algunas decisiones de diseño tomadas en sus primeras versiones pueden considerarse menos ideales hoy en día.</li>
+        </ul>
+    </div>
+
+    <div class="usos__php">
+        <div class="info1">
+        <h1>Usos del lenguaje PHP</h1><br><br><br>
+        <p>PHP es un lenguaje de programación especialmente diseñado por el desarrollo web del lado del servidor. Se utiliza para crear aplicaciones web dinámicas e interactivas.</p><br><br>
+        
+        <h3>Desarrollo de sitios web dinámicos:</h3><br>
+        <p>PHP se utiliza ampliamente para el desarrollo de sitios web dinámicos, donde la información puede cambiar según las acciones del usuario o la base de datos. Puede generar contenido dinámico, como paginas personalizadas, formularios interactivos y más.</p><br><br>
+        
+        <h3>Gestión de sesiones de usuario:</h3><br>
+        <p>PHP se utiliza para manejar sesiones de usuario. Esto es esencial para la creación de aplicaciones web que requieren autenticación y seguimiento del esto del usuario durante su visita.</p><br><br>
+        
+        <h3>Interacción con bases de datos:</h3><br>
+        <p>PHP es compatible con una variedad de sistemas de gestión de bases de datos, como MySQL, PostgreSQL, SQLite, y otros. Se utiliza para realizar consultas a la base de datos y procesar los resultados, permitiendo la manipulación y presentación de datos dinámicos.</p><br><br>
+        
+        <h3>Desarrollo de formularios web:</h3><br>
+        <p>PHP facilita la creación y procesamiento de formularios web. Puede recoger datos del usuario, validar la entrada y enviar la información a una base de datos.</p><br><br>
+        
+        <h3>Desarrollo de aplicaciones de comercia electrónico:</h3><br>
+        <p>Muchas plataformas de comercio electrónico, como WordPress con WooCommerce, utilizan PHP facilita la gestión de catálogos de productos, carritos de compras y procesos de pago.</p><br><br>
+        
+        <h3>Desarrollo de blogs y cms:</h3><br>
+        <p>PHP es ampliamente utilizado en la creación de sistemas de gestión de contenido (CMS) como WordPress, Joomla y Drupal. Estos sistemas permiten a los usuarios crear y administrar contenido en línea de manera fácil y efectiva.</p><br><br>
+        
+        <h3>Automatización de tareas:</h3><br>
+        <p>PHP se puede utilizar para automatizar tareas del servidor, como el procesamiento de archivos, la generación de informes y la programación de tareas periódicas.</p><br><br>
+        
+    </div>
+    <figure class="php-img">
+        <img src="./assets/php-img1.png" alt="php imagen" class="php-img1">
+        <img src="./assets/nuevo-php8.jpg" alt="php imagen2" class="php-img1">
+        <img src="./assets/php-tutorials.png" alt="php imagen3" class="php-img1">
+    </figure>
+    </div>
+
+    
+    <div class="tareas">
+        <figure class="php-img">
+            <img src="./assets/servidor-web.jpg" alt="servidor web imagen" class="php-img2">
+            <img src="./assets/email04.jpg" alt="email imagen" class="php-img2">
+            <img src="./assets/herramientas-de-diseño-700x529.jpg" alt="diseño imagen3" class="php-img2">
+        </figure>
+
+        <div class="info2">
+        <h1>Tareas Principales</h1><br><br><br>
+        <h3>Servidor Web</h3><br>
+        <p>Un servidor web o servidor HTTP es un programa informático que procesa una aplicación del lado del servidor, realizando conexiones bidireccionales y/o unidireccionales y síncronas o asíncronas con el cliente y generando o cediendo una respuesta en cualquier lenguaje o aplicación de lado del cliente.
+            El código recibido por el cliente suele ser compilado y ejecutado por un navegador web. Para la transmisión de todos estos datos suele utilizarse algún protocolo. Generalmente se usa el protocolo HTTP para estas comunicaciones, perteneciente a la capa de aplicación del modelo OSI. El termino se emplea para referirse al ordenador que ejecuta el programa.
+            </p><br><br><br>
+        <h3>Cliente</h3><br>
+        <p>Un cliente es aquel que trabaja combinando lo que es su entorno local con peticiones a un servidor.</p><br><br><br>
+        <h3>Funciones de correo electrónico</h3><br>
+        <p>Podemos con una facilidad asombrosa enviar un e-mail a una persona o lista parametrizando toda una serie de aspectos tales como el e-mail de procedencia, asunto, persona a responder. Otras funciones menos frecuentes, pero de indudable utilidad para gestionar correos electrónicos son incluidas en su librería.</p><br><br><br>
+        <h3>Gestión de bases de datos</h3><br>
+        <p>Resulta difícil concebir un sitio actual, potente y rico en contenido que no es gestionado por una base de datos. El lenguaje PHP ofrece interfaces para el acceso a la mayoría de las bases de datos comerciales y por ODBC a todas las bases de datos posibles en sistemas Microsoft, a partir de las cuales podremos editar el contenido de nuestro sitio con una absoluta sencillez.</p><br><br><br>
+        <h3>Gestión de archivos</h3><br>
+        <p>Crear, borrar, mover, modificar cualquier tipo de operación mas o menos razonable que se nos pueda ocurrir puede ser realizada a partir de una amplia librería de funciones para la gestión de archivos por PHP.</p><br><br><br>
+        <h3>Tratamiento de imágenes</h3><br>
+        <p>Evidentemente resulta mucho más sencillo utilizar Photoshop para el tratamiento de imágenes, pero la verdad es que puede resultar muy tedioso uniformar en tamaño y formato miles de imágenes recibidas día a día. Todo esto puede ser también automatizado mediante PHP.</p><br><br><br>
+    </div>
+    </div>
+    </section>
+</body>
+</html>
